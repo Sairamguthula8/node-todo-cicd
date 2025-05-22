@@ -13,6 +13,6 @@ RUN npm install
 # Run tests (optional)
 RUN npm run test
 # Expose the app port
-EXPOSE 8000
+EXPOSE 8001
 # Start the application
 CMD ["node", "app.js"]
